@@ -2,7 +2,7 @@
 
 Entries for the [#genuary2021](https://genuary2021.github.io) generative art challenge. Focus on computational physics.
 
-### ```MAGNETIC_BREATH```
+### [```MAGNETIC_BREATH```](source/magnetic_breath.m)
 
     Entry for:
     > JAN.08 | Curve only.
