@@ -23,8 +23,8 @@ k = linspace(dk,pi/ell,N/2);
 tk = -2*t*cos(k.*ell);
 
 % Perturbative Physical Scales
-  U = linspace(0.01,10,250); % 25 -> 250 for pretty graphics (but heavy!)
-  a = linspace(-4,4,250);    % 25 -> 250 for pretty graphics (but heavy!)
+  U = linspace(0.01,10,25); % 25 -> 250 for pretty graphics (but heavy!)
+  a = linspace(-4,4,25);    % 25 -> 250 for pretty graphics (but heavy!)
 
 %% MAIN 
 
@@ -86,7 +86,7 @@ for jU = 1:2*length(U)-2
             plot(a,Eku(abs(z*jU+tot),1:length(a),ik),'Color',[0 0 1 0.3]); 
             Nlines = Nlines+4;
     end
-    Nlines % -> 500 lines.
+    Nlines % -> 500 lines. (0^0~~,)
     ylim([-8,8])
     set(gca,'xtick',[])
     set(gca,'ytick',[])
