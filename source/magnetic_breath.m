@@ -76,7 +76,6 @@ pause
 %% GIF BUILDING
 
 filename = 'animated.gif';
-%axis tight manual % this ensures that getframe() returns a consistent size
 tot=0; z=1;
 for jU = 1:2*length(U)-2
     fig = figure("Name",sprintf('jU=%d',jU)); Nlines=0;
@@ -93,11 +92,11 @@ for jU = 1:2*length(U)-2
     set(gca,'ytick',[])
     fprintf('U=%.2f DONE\n',U(abs(z*jU+tot))); 
     drawnow
-    InSet = get(gca, 'TightInset');
+    InSet = get(gca, 'TightInset'); % [These two lines ensure filling of the fig]
     set(gca, 'Position', [InSet(1:2), 1-InSet(1)-InSet(3), 1-InSet(2)-InSet(4)]);
     % Capture the plot as an image 
-    im = print(fig,'-RGBImage');
-    [imind,cm] = rgb2ind(im,256,'nodither'); 
+    im = print(fig,'-RGBImage'); % [far better than getframe(), resolution-wise]
+    [imind,cm] = rgb2ind(im,256,'nodither'); % ['nodither' improves resolution]
     
     % Write to the GIF File 
       if jU == 1 
