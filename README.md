@@ -1,4 +1,4 @@
-## Genuary 2021
+# Genuary 2021
 
 Entries for the [#genuary2021](https://genuary2021.github.io) generative art challenge. Focus on computational physics.
 
@@ -16,6 +16,6 @@ What you see is the evolution of the quantum energy levels of a _diatomic Hubbar
 About the #genuary prompts: 
 - _**Curve only**_ is pretty much self-evident: a solid-state "band-structure" is made of just curves.
 - _**One process grows, another process prunes**_ is more interesting: I refer here to the progressive expansion of the magnetic phase, at the expense of the demagnetized one. And viceversa.
-- _**500 lines**_ may appear trivial, but it's not: here you see exactly 500 lines, but the true number of quantum levels is not 500. If you'd happen to plot all the 10<sup>4</sup> you'll get a nasty mess of aliased crap. If you instead enforce physically the number of levels to be 500 (which amounts to making way shorter the diatomic chain), you'll dive in the realm of nanostructures, with highly discretized physics, and will lost all the nice smoothness of the plot. Aestethics demands a proper subset of 500 "representative" levels. So I claim to have _strongly_ satisfied also this prompt :D
+- _**500 lines**_ may appear trivial, but it's not: here you see exactly 500 lines, but the true number of quantum levels is not 500. If you'd happen to plot all the 10<sup>4</sup> lines you'll get a nasty mess of aliased crap. If you instead enforce physically the number of levels to be 500 (which amounts to making way shorter the diatomic chain), you'll dive in the realm of nanostructures, with highly discretized physics, and will lost all the nice smoothness of the plot. Aestethics demands a proper subset of 500 "representative" levels. So I claim to have _strongly_ satisfied also this prompt :D
 
 Finally, if you want to read more about the physics behind this divertissement, consider to take a look [here](https://github.com/Bellomia/CondMatLab_SISSA/blob/main/HFHubbardLab/Ionic_Hubbard_Chain_%5BBELLOMIA%5D.pdf). Enjoy!
