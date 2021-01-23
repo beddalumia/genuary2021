@@ -19,3 +19,13 @@ About the #genuary prompts:
 - _**500 lines**_ may appear trivial, but it's not: here you see exactly 500 lines, but the true number of quantum levels is not 500. If you'd happen to plot all the 10<sup>4</sup> lines you'll get a nasty mess of aliased crap. If you instead enforce physically the number of levels to be 500 (which amounts to making way shorter the diatomic chain), you'll dive in the realm of nanostructures, with highly discretized physics, and will lost all the nice smoothness of the plot. Aestethics demands a proper subset of 500 "representative" levels. So I claim to have _strongly_ satisfied also this prompt :D
 
 Finally, if you want to read more about the physics behind this divertissement, consider to take a look [here](https://github.com/Bellomia/CondMatLab_SISSA/blob/main/HFHubbardLab/Ionic_Hubbard_Chain_%5BBELLOMIA%5D.pdf). Enjoy!
+
+### [```FLAMBOYANT_QUASICRYSTAL```](source/flamboyant_quasicrystal.m)
+
+    Entry for:
+    > JAN.04 | Small areas of symmetry.
+    > JAN.06 | Triangle subdivision.
+    > JAN.13 | Do not repeat.
+    > JAN.23 | #264653 #2a9d8f #e9c46a #f4a261 #e76f51, no gradients.
+    
+![flamboyant_quasicrystal](output/flamboyant_quasicrystal.gif?sanitize=true)    
