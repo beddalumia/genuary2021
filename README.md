@@ -20,7 +20,7 @@ About the #genuary prompts:
 
 Finally, if you want to read more about the physics behind this divertissement, consider to take a look [here](https://github.com/Bellomia/CondMatLab_SISSA/blob/main/HFHubbardLab/Ionic_Hubbard_Chain_%5BBELLOMIA%5D.pdf). Enjoy!
 
-### [```FLAMBOYANT_QUASICRYSTAL```](source/flamboyant_quasicrystal.m)
+### [```FLAMBOYANT_QUASICRYSTAL```](source/flamboyant_quasicrystal.py)
 
     Entry for:
     > JAN.04 | Small areas of symmetry.
