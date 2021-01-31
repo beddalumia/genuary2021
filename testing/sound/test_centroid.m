@@ -3,7 +3,7 @@ clc
 
 isTest = true;
 
-fprintf('Reading input audio..');
+fprintf('Reading audio input..');
 [signal,fs] = audioread('music.mp3');
 [signal2,fs2] = audioread('thunder.mp3');
 fprintf('.DONE\n');

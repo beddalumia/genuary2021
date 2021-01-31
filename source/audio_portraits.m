@@ -14,9 +14,9 @@
 clear all
 clc
 
-isTest = false;
+isTest = true;
 
-fprintf('Reading input audio..');
+fprintf('Reading audio input..');
 [signal,fs] = audioread('audio.mp3');
 fprintf('.DONE\n');
 centroid = spectralCentroid(signal,fs);
