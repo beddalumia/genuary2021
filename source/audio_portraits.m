@@ -55,6 +55,7 @@ for i = 1:Nframes
     centroid = maxFreq-sum(centroid);
     centroid = abs(centroid);
     fprintf('%d out of %d:\n',i,Nframes);
+    
  %% Making centroid-controlled picture 
  %  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  %  Assuming 'epswartz/block_distortion' package to be installed (v.1.0.1)
@@ -78,6 +79,7 @@ for i = 1:Nframes
  %   --splits INTEGER  Number of times to split the image  [default: 2000]
  %   --out TEXT        Name of output file (gif)  [default: ./output.png]
  % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
     pkg = 'block_dist';
     cmd = 'single';
     opt = sprintf('--splits %d --out temp.jpg',round(centroid));
@@ -85,22 +87,27 @@ for i = 1:Nframes
     fprintf('> generating...');
     system([pkg,' ',cmd,' ',opt,' ',fid]);
     fprintf('  ...DONE\n');
+    
  %% Appending Frames
+ 
     fprintf('> reading..');
     TempImage = imread('temp.jpg'); fprintf('.done\n');
     fprintf('> writing..');
     step(videoFWriter, TempImage, AudioFrame); fprintf('.done\n');
 end
 release(videoFWriter);
-% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-% Assuming 'FFmpeg' package to be installed
+
+%% Compressing Video
+%  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%  Assuming 'FFmpeg' package to be installed
 %
-% If not just run:
+%  If not just run:
 %
-% $ sudo apt install ffmpeg
+%  $ sudo apt install ffmpeg
 %
-% on a terminal
-% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%  on a terminal
+%  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 fprintf('********************\n');
 fprintf('CONVERTING TO MP4...\n\n');
 system('ffmpeg -i out.avi out.mp4');
