@@ -37,6 +37,11 @@ Finally, if you want to read more about the physics behind this divertissement, 
     > JAN.14 | // SUBDIVISION
     > JAN.28 | Use sound.
     
-- SELF_PORTRAIT
+**> HER_and_ME**
+
+| [<img src="output/her.gif" alt="her" height="400"/>](https://youtu.be/2kqCiJIpTlI "click to hear sound") | <table> <tbody> <tr> <td> [<img src="output/me.gif" alt="me" height="200"/>](https://youtu.be/oVvkGehgye0 "click to hear sound") </td> </tr> <td> <img src="material/in[me].jpg" alt="me.input" title="input picture" height="200"/> </td> </tr> </tbody> </table> | <img src="material/in[her].jpg" alt="her.input" title="input picture" height="400"/> |
+|:-: | :-: | :-: |
+
+**> SELF_PORTRAIT**
 
 [![self_portrait](output/self_portrait.gif)](http://www.youtube.com/watch?v=kpWXcR0KabA "click to hear sound")
