@@ -1,6 +1,6 @@
 # Genuary 2021
 
-Entries for the [#genuary2021](https://genuary2021.github.io) generative art challenge. Focus on computational physics & musical crossovers.
+Entries for the [#genuary2021](https://genuary2021.github.io) generative art challenge.
 
 ### [```MAGNETIC_BREATH```](source/magnetic_breath.m)
 
