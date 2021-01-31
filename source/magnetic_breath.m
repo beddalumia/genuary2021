@@ -1,12 +1,12 @@
 %% PROMPTS
 %
-% #JAN.8
+% >JAN.8
 %  Curve only.
 %
-% #JAN.18
+% >JAN.18
 %  One process grows, another process prunes.
 %
-% #JAN.24
+% >JAN.24
 %  500 lines.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
