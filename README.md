@@ -1,6 +1,6 @@
 # Genuary 2021
 
-Entries for the [#genuary2021](https://genuary2021.github.io) generative art challenge. Focus on computational physics.
+Entries for the [#genuary2021](https://genuary2021.github.io) generative art challenge.
 
 ### [```MAGNETIC_BREATH```](source/magnetic_breath.m)
 
@@ -29,3 +29,19 @@ Finally, if you want to read more about the physics behind this divertissement, 
     > JAN.23 | #264653 #2a9d8f #e9c46a #f4a261 #e76f51, no gradients.
     
 ![flamboyant_quasicrystal](output/flamboyant_quasicrystal.gif?sanitize=true)    
+
+### [```AUDIO_PORTRAITS```](source/audio_portraits.m)
+
+    Entries for:
+    > JAN.03 | Something human.
+    > JAN.14 | // SUBDIVISION
+    > JAN.28 | Use sound.
+    
+> her & me
+
+| [<img src="output/her.gif" alt="her" height="300"/>](https://youtu.be/2kqCiJIpTlI "click to hear sound") | <table> <tbody> <td> [<img src="output/me.gif" alt="me" height="140"/>](https://youtu.be/oVvkGehgye0 "click to hear sound") </td> </tr> <td> <img src="material/in[me].jpg" alt="me.input" title="input picture" height="140"/> </td> </tbody> </table> | <img src="material/in[her].jpg" alt="her.input" title="input picture" height="300"/> |
+|:-: | :-: | :-: |
+
+> self-portrait 
+
+[![self_portrait](output/self_portrait.gif)](http://www.youtube.com/watch?v=kpWXcR0KabA "click to hear sound")
