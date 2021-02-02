@@ -2,6 +2,18 @@
 
 Entries for the [#genuary2021](https://genuary2021.github.io) generative art challenge.
 
+## Index
+
++ [```MAGNETIC_BREATH```](https://github.com/Bellomia/genuary2021#magnetic_breath)
+
++ [```FLAMBOYANT_QUASICRYSTAL```](https://github.com/Bellomia/genuary2021#flamboyant_quasicrystal)
+
++ [```AUDIO_PORTRAITS```](https://github.com/Bellomia/genuary2021#audio_portraits)
+
++ [```GREAT_CLASSIC```](https://github.com/Bellomia/genuary2021#great_classic)
+
+## Entries
+
 ### [```MAGNETIC_BREATH```](source/magnetic_breath.m)
 
     Entry for:
